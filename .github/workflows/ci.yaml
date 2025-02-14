@@ -2,7 +2,7 @@ name: Golang Docker Build
 
 on: push
 # LET THE PIPELINE TRIGGER ON A PUSH TO ALL BRANCHES
-
+#Test
 env:
   CONTAINER_REPOSITORY: quay.io/Miel-DR2003 # PUT YOUR OWN USERNAME HERE
   CONTAINER_IMAGE: alm-workshop
