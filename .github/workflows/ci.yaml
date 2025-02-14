@@ -1,6 +1,8 @@
 name: Golang Docker Build
 
-on: push
+on:
+  release:
+    types: [published]
 # LET THE PIPELINE TRIGGER ON A PUSH TO ALL BRANCHES
 #Test
 env:
